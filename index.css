@@ -326,13 +326,13 @@ footer{
         flex-direction:column ;
         line-height: 3rem;
       }
-      #navigation--0{
+    #navigation--0{
         width: 500px;
         height: 50rem;  
         margin-top: 5.6rem;   
       }
       
-     #inputValue{
+    #inputValue{
         position: relative;
         right: 2rem;
      }
