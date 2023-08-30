@@ -17,6 +17,8 @@ const prevButton = document.querySelector('#previous--button');
 const searchApiSpace = document.querySelector('#search--api--space');
 const cardTwoSpace = document.querySelector('#card--two--space');
 const cardOneSpace = document.querySelector('#card--one--space');
+const classNavigation = document.querySelector('.navigation');
+const burgerImage = document.querySelector('#burger--image');
 
 //CARD--ZERO
  async function myIndexZero(){
@@ -111,3 +113,15 @@ const myIndexOne = async()=>{
     }) 
   }
   myIndexTwo();
+
+
+
+
+  burgerImage.addEventListener('click', ()=>{
+         if(classNavigation.classList.contains('classNavigation')){
+             classNavigation.classList.remove('classNavigation');
+         }
+         else{
+          classNavigation.classList.add('classNavigation');
+         }
+  })
