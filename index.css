@@ -292,3 +292,12 @@ body{
     display: flex;
     justify-content: right;
 }
+footer{  
+    text-align: center;
+    position: relative;
+    top: 18rem;
+    background-color: black;
+    height: 6rem;
+    color: azure;
+    line-height: 5rem;
+}

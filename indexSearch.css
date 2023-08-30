@@ -66,3 +66,17 @@ form{
     width: 10rem;
     height: 4rem;
 }
+footer{  
+    text-align: center;
+    position: relative;
+    top: 18rem;
+    background-color: black;
+    height: 6rem;
+    color: azure;
+    line-height: 5rem;
+}
+#axception{
+    text-align: center;
+    position: relative;
+    top: 2rem
+}
