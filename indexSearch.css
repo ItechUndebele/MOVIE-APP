@@ -52,19 +52,19 @@ form{
 
 }
 
-#buttonss{
+#search--buttons{
     display: flex;
     justify-content: center;
     position: relative;
     top: 10rem;
 }
-#prev--button--for{
+#search--prev--button{
     width: 10rem;
-    height: 4rem;
+   
 }
-#next--button--for{
+#search--next--button{
     width: 10rem;
-    height: 4rem;
+   
 }
 footer{  
     text-align: center;
