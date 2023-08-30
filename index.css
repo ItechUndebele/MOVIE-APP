@@ -337,6 +337,6 @@ footer{
         right: 2rem;
      }
     .navigation{
-       display: none;
+       display: non;
     }
 }
