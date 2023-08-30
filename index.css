@@ -3,7 +3,7 @@
 }
 body{
     background-color: rgb(66, 65, 65);
-  
+    overflow-x: hidden;
 }
 #navigation--0 ul{
      display: grid;
