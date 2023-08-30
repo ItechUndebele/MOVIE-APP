@@ -1,8 +1,8 @@
 
 const searchInputValue = document.querySelector('#searchInputValue');
 const searchApiSpace = document.querySelector('#search--api--space');
-const nextButtonFor = document.querySelector('#next--button--for');
-const prevButtonFor = document.querySelector('#prev--button--for');
+const nextButtonFor = document.querySelector('#search--next--button');
+const prevButtonFor = document.querySelector('#search--prev--button');
 const axception = document.querySelector('#axception');
 
 let search;

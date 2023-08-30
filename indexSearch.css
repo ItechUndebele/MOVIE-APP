@@ -43,10 +43,11 @@ form{
 }
 #search--api--space{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5rem, 250px));
+    grid-template-columns: repeat(auto-fit, minmax(0%, 200px));
     justify-content: center;
     margin: 0% 22%;
     row-gap: 1rem;
+    column-gap: 1rem;
     position: relative;
     top: 5rem
 
@@ -57,14 +58,14 @@ form{
     justify-content: center;
     position: relative;
     top: 10rem;
+    height: 3rem;
+   
 }
 #search--prev--button{
-    width: 10rem;
-   
+    width: 10rem;  
 }
 #search--next--button{
-    width: 10rem;
-   
+    width: 10rem;  
 }
 footer{  
     text-align: center;
