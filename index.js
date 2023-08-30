@@ -97,6 +97,7 @@ const myIndexOne = async()=>{
     const api = await fetch(url);
     const jsonData = await api.json();
     const jsonDataSecond = jsonData.results;
+    
     jsonDataSecond.map(index=>{
         const apiData = `
         <div id='card--two'>
