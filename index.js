@@ -119,16 +119,16 @@ const myIndexOne = async()=>{
 
   burgerImage.addEventListener('click', ()=>{
     if (classNavigation.classList.contains('classNavigation')){
-         classNavigation.remove('classNavigation');
+         classNavigation.classList.remove('classNavigation');
   
      }
      else
      {
-         classNavigation.add('classNavigation');
+         classNavigation.classList.add('classNavigation');
 
      }
   })
 
-  
+
 
  
