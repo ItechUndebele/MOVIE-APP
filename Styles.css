@@ -192,7 +192,7 @@ card--zero{
     padding-left: 4rem;
     border-radius: 1rem;
 }
-body{
+.body{
     background-image: url(https://image.tmdb.org/t/p/w500/wwemzKWzjKYJFfCeiB57q3r4Bcm.png);
     background-repeat: no-repeat;
     background-size: cover;
