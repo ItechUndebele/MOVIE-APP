@@ -365,11 +365,15 @@ form{
     top: 5rem
 }
 #search--buttons{
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 10rem;
-    height: 3rem; 
+    height: 3rem;  
+}
+.button--buttons{
+    display: flex;
+    justify-content: center;
 }
 #search--prev--button{
     width: 10rem;  
