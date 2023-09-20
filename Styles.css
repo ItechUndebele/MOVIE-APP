@@ -18,7 +18,7 @@ body{
    color: aliceblue;
 }
 #navigation--0{
-    background-color: rgb(180, 173, 173);
+    background-color: rgb(31, 30, 30);
     height: 90px;
     line-height: 80px;
     position: fixed;
@@ -28,7 +28,7 @@ body{
 #heading{
    text-align: center;
    font-family: 'Roboto', sans-serif;
-   background-color: rgb(47, 49, 50);
+   background-color: rgb(17, 18, 18);
    height: 5rem;
    color: white;
 }
@@ -73,11 +73,6 @@ form #img{
     position: relative;
     top: 8rem; 
     margin: 5% 20%;   
-}
-
-card--zero{
-    display: flex;
-    justify-content: center; 
 }
 #card--img--zero{
     width: 15rem;
